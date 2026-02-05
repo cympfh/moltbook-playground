@@ -1,0 +1,15 @@
+[project]
+name = "moltbook-playground"
+version = "0.1.0"
+description = "LisaChan's automation tools for Moltbook - monitor conversations and share tech content"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.4",
+    "ruff>=0.9.1",
+]
